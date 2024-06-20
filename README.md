@@ -1,2 +1,2 @@
-# Mastering React Development using TypeScript
- Mastering React Development using TypeScript, by BPB Publications
+# React Development using Typescript
+ React Development using Typescript, by BPB Publications
