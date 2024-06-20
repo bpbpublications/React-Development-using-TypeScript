@@ -1,0 +1,83 @@
+/* Scoreboard.css */
+
+.scoreboard {
+  background-color: #ffffff; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px;
+  margin: 20px;
+}
+
+.scoreboard h2 {
+  margin-top: 0;
+  color: #333333; /* Dark text color */
+}
+
+.scoreboard h3 {
+  margin-top: 0;
+  color: #007bff; /* Blue header text color */
+}
+
+.scoreboard ul {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0;
+}
+
+.scoreboard ul li {
+  padding: 10px;
+  border-bottom: 1px solid #eeeeee; /* Light gray border between items */
+}
+
+.scoreboard ul li:last-child {
+  border-bottom: none; /* Remove border from last item */
+}
+
+.scoreboard .loading {
+  color: #888888; /* Gray loading text */
+  text-align: center;
+}
+
+.scoreboard .error {
+  color: #ff0000; /* Red error text */
+  text-align: center;
+}
+
+.sport-category {
+  margin-bottom: 20px;
+}
+
+.sport-name {
+  color: #333;
+  background-color: #f0f0f0;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin: 0 0 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.matches-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.match-item {
+  background-color: #fff;
+  padding: 10px 15px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.team-name {
+  font-weight: 600;
+}
+
+.score {
+  margin: 0 10px;
+  font-weight: bold;
+  color: #007bff;
+}

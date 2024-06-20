@@ -1,0 +1,25 @@
+.externalAPIComponent {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .externalAPIComponent p {
+    text-align: center;
+  }
+  
+  .externalAPIComponent .error {
+    color: red;
+  }
+  
+  .externalAPIComponent ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .externalAPIComponent li {
+    margin-bottom: 5px;
+  }
+  

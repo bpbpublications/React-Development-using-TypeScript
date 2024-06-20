@@ -1,0 +1,61 @@
+/* App.css */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.dashboard {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  gap: 20px; /* Adds space between sidebar and scoreboard */
+}
+
+/* Sidebar.css */
+
+.sidebar {
+  width: 250px; /* Fixed width for the sidebar */
+  background-color: #f4f4f4; /* Light grey background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Scoreboard.css (Adjustments for the existing CSS) */
+
+.scoreboard {
+  flex: 1; /* Takes the remaining space */
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Additional styles to ensure consistency */
+
+body, h2, h3, ul, li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+h2, h3 {
+  padding: 10px 0;
+}
+
+/* Ensures that the content is nicely padded and spaced */

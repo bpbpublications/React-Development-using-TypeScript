@@ -1,0 +1,16 @@
+/* src/components/MatchDetail.css */
+.match-detail {
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .match-detail h3 {
+    color: #333;
+  }
+  
+  .match-detail p {
+    margin: 5px 0;
+  }
+  

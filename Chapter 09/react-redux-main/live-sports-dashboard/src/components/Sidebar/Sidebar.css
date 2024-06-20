@@ -1,0 +1,20 @@
+/* Sidebar.css */
+.sidebar {
+    width: 200px; /* Adjust width as needed */
+    background-color: #f4f4f4; /* Light gray background */
+  }
+  
+  .sidebar ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Gray border between items */
+  }
+  
+  .sidebar ul li:last-child {
+    border-bottom: none; /* Remove border from last item */
+  }
+  
