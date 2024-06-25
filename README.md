@@ -1,2 +1,2 @@
-# React Development using Typescript
- React Development using Typescript, by BPB Publications
+# React Development using TypeScript
+ React Development using TypeScript, by BPB Publications
